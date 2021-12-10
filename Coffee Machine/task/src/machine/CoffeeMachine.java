@@ -39,11 +39,11 @@ public class CoffeeMachine {
   }
 
   void makeCoffee(String choice) {
-    int waterUsed;
-    int milkUsed;
-    int beansUsed;
-    int cupsUsed;
-    int price;
+    int waterUsed = 0;
+    int milkUsed = 0;
+    int beansUsed = 0;
+    int cupsUsed = 0;
+    int price = 0;
 
     switch (choice) {
       case "1":
